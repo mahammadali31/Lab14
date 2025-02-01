@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4
+      author: mahammadali
+      changes:
+        - insert:
+            tableName: books
+            columns:
+              - column:
+                  name: title
+                  value: "Harry Potter and the Philosopher's Stone"
+              - column:
+                  name: price
+                  valueNumeric: 39.99
+              - column:
+                  name: author_id
+                  value: 1
+
+        - insert:
+            tableName: books
+            columns:
+              - column:
+                  name: title
+                  value: "1984"
+              - column:
+                  name: price
+                  valueNumeric: 29.99
+              - column:
+                  name: author_id
+                  value: 2

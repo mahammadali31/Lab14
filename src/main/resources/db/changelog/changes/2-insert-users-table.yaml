@@ -1,0 +1,27 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: mahammadali
+      changes:
+        - insert:
+            tableName: users
+            columns:
+              - column: { name: username, value: "murat" }
+              - column: { name: email, value: "mrd@gmail.com" }
+              - column: { name: password, value: "$2y$10$KTTITQjSPXkqKHcZ7W9h/eMnp2E43r9Y6nCkoj1d7ChR2m0J6NUCC" }
+              - column: { name: role, value: "USER" }  # Or whatever your default role is
+        - insert:
+            tableName: users
+            columns:
+              - column: { name: username, value: "jane_doe" }
+              - column: { name: email, value: "jane@example.com" }
+              - column: { name: password, value: "$2y$10$KTTITQjSPXkqKHcZ7W9h/eMnp2E43r9Y6nCkoj1d7ChR2m0J6NUCC" }
+              - column: { name: role, value: "USER" }  # Or whatever your default role is
+
+        - insert:  # Example of a third user
+            tableName: users
+            columns:
+              - column: { name: username, value: "admin_user" }
+              - column: { name: email, value: "admin@example.com" }
+              - column: { name: password, value: "$2y$10$KTTITQjSPXkqKHcZ7W9h/eMnp2E43r9Y6nCkoj1d7ChR2m0J6NUCC" }
+              - column: { name: role, value: "ADMIN" }  # Example of a different role
