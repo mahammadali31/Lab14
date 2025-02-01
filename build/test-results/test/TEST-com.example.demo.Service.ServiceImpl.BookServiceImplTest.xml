@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.Service.ServiceImpl.BookServiceImplTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-02-01T15:36:27" hostname="LAPTOP-2FPRH84F" time="1.752">
+  <properties/>
+  <testcase name="delete_success()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="1.695"/>
+  <testcase name="add_success()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="0.025"/>
+  <testcase name="getById_bookNotFound()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="0.005"/>
+  <testcase name="update_success()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="0.011"/>
+  <testcase name="add_authorNotFound()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="0.006"/>
+  <testcase name="getById_success()" classname="com.example.demo.Service.ServiceImpl.BookServiceImplTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

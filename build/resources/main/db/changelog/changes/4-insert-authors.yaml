@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: mahammadali
+      changes:
+        - insert:
+            tableName: authors
+            columns:
+              - column:
+                  name: name
+                  value: "J.K. Rowling"
+              - column:
+                  name: nationality
+                  value: "British"
+
+        - insert:
+            tableName: authors
+            columns:
+              - column:
+                  name: name
+                  value: "George Orwell"
+              - column:
+                  name: nationality
+                  value: "British"

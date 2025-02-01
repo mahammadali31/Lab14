@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @OpenAPIDefinition(
-        info = @Info(title = "Pharmacy API", version = "1.0"),
+        info = @Info(title = "Lab14 API", version = "1.0"),
         security = @SecurityRequirement(name = "bearerAuth")
 )
 @SecurityScheme(
